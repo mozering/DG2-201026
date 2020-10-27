@@ -72,10 +72,10 @@ flex-wrap: wrap;}
 
 .portfolioboximg:hover {filter: brightness(0%)}
 
+/*모바일 최적화*/
 @media (max-width: 800px) {
   .portfolioboxmain {flex-wrap: wrap; }
   .portfolioboximg {flex: 48.75%; max-width: 48.75%;}
-  
 }
 
 
