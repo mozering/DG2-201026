@@ -75,7 +75,9 @@ flex-wrap: wrap;}
 @media (max-width: 800px) {
   .portfolioboxmain {flex-wrap: wrap; }
   .portfolioboximg {flex: 48.75%; max-width: 48.75%;}
+  
 }
+
 
 .js .toggle-box .content { display:none; }
 
