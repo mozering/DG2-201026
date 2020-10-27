@@ -76,6 +76,70 @@ flex-wrap: wrap;}
 @media (max-width: 800px) {
   .portfolioboxmain {flex-wrap: wrap; }
   .portfolioboximg {flex: 48.75%; max-width: 48.75%;}
+  .header {height: 4%; font-size: 13pt; }
+  .content {float: left;
+    width: 109%;
+    background-color: white;
+    display: block;
+    z-index: 8;
+    top: 2px;
+    left: -4px;
+    position: relative;
+    cursor: pointer;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13pt;
+    font-weight: 400;
+    padding-top: 2%;
+    height: 5%;
+    padding-bottom: 2%;
+    padding-left: 1%;}
+    .press {border-top: medium;
+    border-top-style: solid;
+    float: left;
+    width: 48.5%;
+    height: 15%;
+    margin-bottom: 3%;
+    margin-left: 1%;
+    font-family: 'Noto Sans KR',sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    position: relative;
+    top: 0px;
+    line-height: 1.3;
+    margin-top: 5%;}
+    .workingp {
+    position: absolute;
+    top: 500px;
+    left: 10px;
+    margin-bottom: 2%;
+    right: 10px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+.press {
+    border-top: medium;
+    border-top-style: solid;
+    float: left;
+    width: 48.5%;
+    height: 15%;
+    margin-bottom: 3%;
+    margin-left: 1%;
+    font-family: 'Noto Sans KR',sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    position: relative;
+    top: 0px;
+    line-height: 1.3;
+    margin-top: 5%;
+}
+.working {
+    width: 70%;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+}
 }
 
 
