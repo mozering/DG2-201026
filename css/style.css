@@ -63,13 +63,19 @@ img{width:100%;}
     float: left;
 }
 
-.portfolioboxmain {width: 100%; float: left; margin-top: 6.5%; z-index: 0; position: relative;}
+.portfolioboxmain {width: 100%; float: left; margin-top: 6.5%; z-index: 0; position: relative; display: flex;
+flex-wrap: wrap;}
 
-.portfolioboximg {width: 18.75%; height: 14%; float: left; position: 
+.portfolioboximg {flex: 18.75%; height: 14%; float: left; position: 
 	relative; margin-left: 1%; margin-bottom: 1%; background-color: lightgray; z-index: 2;
- display: block;}
+ display: block; max-width: 18.75%;}
 
 .portfolioboximg:hover {filter: brightness(0%)}
+
+@media (max-width: 800px) {
+  .portfolioboxmain {flex-wrap: wrap; }
+  .portfolioboximg {flex: 48.75%; max-width: 48.75%;}
+}
 
 .js .toggle-box .content { display:none; }
 
