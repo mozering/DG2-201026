@@ -37,11 +37,11 @@ img{width:100%;}
     position: relative;
     cursor: pointer;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 20pt;
+    font-size: 22pt;
     font-weight: 400;
     padding-top: 1%;
     height: 9%;
-    padding: 1%;}
+    padding: 1.5%;}
 .flip {width: 98%;}
 .panel .flip {padding: 1%; text-align: left; background-color: white; color: black; float: left;}
 .mail {
